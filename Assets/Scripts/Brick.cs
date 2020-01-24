@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    [SerializeField] int health;
+    public int health;
     [SerializeField] List<Material> materials;
     Renderer rend;
+    public Vector2Int id;
+    bool toggled = false;
 
     private void Start()
     {
         rend = GetComponent<Renderer>();
-        rend.material = materials[health];
+        rend.material = materials[health - 1];
     }
 
     private void Update()
     {
-        if (health < 0)
+        if (health <= 0)
             gameObject.SetActive(false);
     }
 
@@ -25,7 +27,7 @@ public class Brick : MonoBehaviour
         health -= lives;
         if (health >= 0)
         {
-            rend.material = materials[health];
+            rend.material = materials[health - 1];
         }
         else if (health > materials.Count - 1)
             rend.material = materials[materials.Count - 1];
@@ -35,7 +37,7 @@ public class Brick : MonoBehaviour
     {
         health += lives;
         if (health < materials.Count - 1 && health >= 0)
-            rend.material = materials[health];
+            rend.material = materials[health - 1];
         else if (health > materials.Count - 1)
         {
             rend.material = materials[materials.Count - 1];
@@ -44,5 +46,12 @@ public class Brick : MonoBehaviour
             rend.material = materials[0];
     }
 
-    public int Health { get => health; }
+    public void ToggleVisble(bool status)
+    {
+        gameObject.SetActive(status);
+
+        toggled = true;
+    }
+
+    public bool Toggled { get => toggled; }
 }
