@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using JuicyLib.Unity;
 
 public class Ball : MonoBehaviour
 {
@@ -25,7 +24,7 @@ public class Ball : MonoBehaviour
     private void Update()
     {
         ReverseTruncate(ref velocity, maxVelocity);
-        transform.position += velocity;
+        transform.position += velocity * Time.deltaTime;
     }
 
     void ReverseTruncate(ref Vector3 velocity, float maxSpeed)
@@ -41,12 +40,12 @@ public class Ball : MonoBehaviour
     {
         //if (collision.collider.CompareTag("Wall") && collision.collider.transform.position.x != 0)
         //velocity.x *= -1;
-        if (collision.collider.CompareTag("Wall") && collision.collider.transform.rotation.eulerAngles.y == 90)
+        if (collision.collider.CompareTag("Wall") && collision.collider.transform.rotation.eulerAngles.y != 90)
         {
             velocity.x *= -1;
         }
         else
-            velocity.z *= -1;
+            velocity.y *= -1;
 
         Brick brick = collision.collider.GetComponent<Brick>();
         if (brick != null)
