@@ -33,16 +33,16 @@ public class Padle : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
-                if (ball.velocity.x > 0)
-                    ball.velocity.x *= -1 - 0.3f;
+                if (ball.velocity.y > 0)
+                    ball.velocity.y *= -1 - 0.3f;
                 else
-                    ball.velocity.x -= 0.2f;
+                    ball.velocity.y -= 0.2f;
             }
             else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) {
-                if (ball.velocity.x > 0)
-                    ball.velocity.x *= -1 + 0.3f;
+                if (ball.velocity.y > 0)
+                    ball.velocity.y *= -1 + 0.3f;
                 else
-                    ball.velocity.x += 0.3f; 
+                    ball.velocity.y += 0.3f; 
             }
         }
 

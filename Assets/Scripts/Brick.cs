@@ -18,14 +18,14 @@ public class Brick : MonoBehaviour
 
     private void Update()
     {
-        if (health <= 0)
+        if (health  <= 0)
             gameObject.SetActive(false);
     }
 
     public void DoDamage(int lives)
     {
         health -= lives;
-        if (health >= 0)
+        if (health > 0)
         {
             rend.material = materials[health - 1];
         }
