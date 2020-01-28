@@ -114,3 +114,4 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 0, y: 0}
+  dieTime: 1.2

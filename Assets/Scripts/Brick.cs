@@ -10,6 +10,10 @@ public class Brick : MonoBehaviour
     public Vector2Int id;
     bool toggled = false;
 
+    bool startedDisolve = false;
+    [SerializeField] float dieTime = 0.5f;
+    float time2Die;
+
     private void Start()
     {
         rend = GetComponent<Renderer>();
@@ -19,7 +23,25 @@ public class Brick : MonoBehaviour
     private void Update()
     {
         if (health <= 0)
-            gameObject.SetActive(false);
+        {
+            if (!startedDisolve)
+            {
+                GetComponent<Collider>().enabled = false;
+                startedDisolve = true;
+                time2Die = Time.time + dieTime;
+            }
+
+            if (Time.time < time2Die)
+            {
+                rend.material.SetFloat("_DissolveValue", rend.material.GetFloat("_DissolveValue") + (100 / (dieTime * 10) / 100));
+            }
+            else if (Time.time >= time2Die)
+            {
+                GetComponent<Collider>().enabled = true;
+                startedDisolve = false;
+                gameObject.SetActive(false);
+            }
+        }
     }
 
     public void DoDamage(int lives)
@@ -60,13 +82,13 @@ public class Brick : MonoBehaviour
         Ball ball = collision.collider.GetComponent<Ball>();
         if (ball != null)
         {
-            bool hitX = ball.transform.position.x > this.transform.position.x + this.transform.localScale.x/2 || ball.transform.position.x < this.transform.position.x - this.transform.localScale.x/2;
-            bool hitY = ball.transform.position.y > this.transform.position.y + this.transform.localScale.y/2 || ball.transform.position.y < this.transform.position.y - this.transform.localScale.y/2;
-            
-            if(hitX)
-                ball.velocity.x *= -1;           
-            else if(hitY)
-                ball.velocity.y *= -1; 
+            bool hitX = ball.transform.position.x > this.transform.position.x + this.transform.localScale.x / 2 || ball.transform.position.x < this.transform.position.x - this.transform.localScale.x / 2;
+            bool hitY = ball.transform.position.y > this.transform.position.y + this.transform.localScale.y / 2 || ball.transform.position.y < this.transform.position.y - this.transform.localScale.y / 2;
+
+            if (hitX)
+                ball.velocity.x *= -1;
+            else if (hitY)
+                ball.velocity.y *= -1;
         }
     }
 }

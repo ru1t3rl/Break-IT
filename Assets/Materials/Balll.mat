@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Balll
-  m_Shader: {fileID: -6465566751694194690, guid: 0f8c84ca73fbbb64d9056fd7ef251df4,
+  m_Shader: {fileID: -6465566751694194690, guid: 680a56a729bf13d49b351e4609643615,
     type: 3}
   m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 2
@@ -193,7 +193,7 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
-    - _EdgeWidth: 0.01
+    - _EdgeWidth: 0.05
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -283,7 +283,7 @@ Material:
     m_Colors:
     - Color_92AC96FF: {r: 0.33962256, g: 0.33962256, b: 0.33962256, a: 0}
     - Color_937D279E: {r: 0, g: 0.6910994, b: 1.9999998, a: 0}
-    - _BallColor: {r: 1024, g: 1024, b: 1024, a: 1}
+    - _BallColor: {r: 3.9999995, g: 3.9999995, b: 3.9999995, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

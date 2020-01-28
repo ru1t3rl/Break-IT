@@ -161,6 +161,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 3, y: 1}
+  dieTime: 0.5
 --- !u!65 &395033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -275,6 +276,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 103, y: 1}
+  dieTime: 0.5
 --- !u!65 &2487375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -389,6 +391,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 86, y: 0}
+  dieTime: 0.5
 --- !u!65 &4111627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -503,6 +506,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 62, y: 1}
+  dieTime: 0.5
 --- !u!65 &13544296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -617,6 +621,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 45, y: 0}
+  dieTime: 0.5
 --- !u!65 &34841291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -731,6 +736,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 52, y: 1}
+  dieTime: 0.5
 --- !u!65 &35584637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -845,6 +851,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 65, y: 0}
+  dieTime: 0.5
 --- !u!65 &40064333
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -959,6 +966,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 10, y: 1}
+  dieTime: 0.5
 --- !u!65 &58554697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1073,6 +1081,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 85, y: 0}
+  dieTime: 0.5
 --- !u!65 &80899113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1187,6 +1196,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 92, y: 1}
+  dieTime: 0.5
 --- !u!65 &103449791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1301,6 +1311,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 110, y: 1}
+  dieTime: 0.5
 --- !u!65 &125148101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1415,6 +1426,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 32, y: 1}
+  dieTime: 0.5
 --- !u!65 &150286839
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1529,6 +1541,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 81, y: 0}
+  dieTime: 0.5
 --- !u!65 &158597037
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1643,6 +1656,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 11, y: 1}
+  dieTime: 0.5
 --- !u!65 &161051916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1757,6 +1771,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 10, y: 1}
+  dieTime: 0.5
 --- !u!65 &165792235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1871,6 +1886,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 53, y: 1}
+  dieTime: 0.5
 --- !u!65 &171088422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1985,6 +2001,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 7, y: 1}
+  dieTime: 0.5
 --- !u!65 &173311577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2099,6 +2116,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 78, y: 0}
+  dieTime: 0.5
 --- !u!65 &179620323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2213,6 +2231,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 37, y: 0}
+  dieTime: 0.5
 --- !u!65 &184024780
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2327,6 +2346,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 38, y: 0}
+  dieTime: 0.5
 --- !u!65 &189426481
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2441,6 +2461,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 37, y: 1}
+  dieTime: 0.5
 --- !u!65 &206275000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2555,6 +2576,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 22, y: 1}
+  dieTime: 0.5
 --- !u!65 &211701177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2669,6 +2691,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 102, y: 0}
+  dieTime: 0.5
 --- !u!65 &219901267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2783,6 +2806,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 90, y: 0}
+  dieTime: 0.5
 --- !u!65 &238131168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2897,6 +2921,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 96, y: 0}
+  dieTime: 0.5
 --- !u!65 &251469884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3011,6 +3036,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 76, y: 0}
+  dieTime: 0.5
 --- !u!65 &255695315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3125,6 +3151,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 102, y: 1}
+  dieTime: 0.5
 --- !u!65 &300468602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3239,6 +3266,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 58, y: 0}
+  dieTime: 0.5
 --- !u!65 &305723413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3353,6 +3381,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 23, y: 1}
+  dieTime: 0.5
 --- !u!65 &311807503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3467,6 +3496,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 27, y: 1}
+  dieTime: 0.5
 --- !u!65 &316477986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3581,6 +3611,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 33, y: 1}
+  dieTime: 0.5
 --- !u!65 &319382234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3695,6 +3726,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 67, y: 1}
+  dieTime: 0.5
 --- !u!65 &320591301
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3809,6 +3841,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 8, y: 1}
+  dieTime: 0.5
 --- !u!65 &321228803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3923,6 +3956,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 0, y: 1}
+  dieTime: 0.5
 --- !u!65 &321562443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4037,6 +4071,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 89, y: 0}
+  dieTime: 0.5
 --- !u!65 &324332763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4151,6 +4186,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 29, y: 1}
+  dieTime: 0.5
 --- !u!65 &332096658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4265,6 +4301,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 21, y: 1}
+  dieTime: 0.5
 --- !u!65 &339038380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4379,6 +4416,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 51, y: 0}
+  dieTime: 0.5
 --- !u!65 &346226936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4493,6 +4531,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 48, y: 1}
+  dieTime: 0.5
 --- !u!65 &346311383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4607,6 +4646,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 80, y: 1}
+  dieTime: 0.5
 --- !u!65 &346784914
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4721,6 +4761,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 57, y: 0}
+  dieTime: 0.5
 --- !u!65 &376801222
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4835,6 +4876,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 98, y: 0}
+  dieTime: 0.5
 --- !u!65 &390382738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4949,6 +4991,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 54, y: 1}
+  dieTime: 0.5
 --- !u!65 &401414078
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5063,6 +5106,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 68, y: 0}
+  dieTime: 0.5
 --- !u!65 &416945904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5177,6 +5221,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 71, y: 0}
+  dieTime: 0.5
 --- !u!65 &426556397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5291,6 +5336,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 13, y: 1}
+  dieTime: 0.5
 --- !u!65 &428311916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5405,6 +5451,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 72, y: 1}
+  dieTime: 0.5
 --- !u!65 &435797786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5519,6 +5566,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 105, y: 1}
+  dieTime: 0.5
 --- !u!65 &437320716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5633,6 +5681,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 38, y: 1}
+  dieTime: 0.5
 --- !u!65 &446309387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5747,6 +5796,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 50, y: 0}
+  dieTime: 0.5
 --- !u!65 &461682684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5861,6 +5911,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 69, y: 0}
+  dieTime: 0.5
 --- !u!65 &473157953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5975,6 +6026,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 29, y: 0}
+  dieTime: 0.5
 --- !u!65 &483976949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6089,6 +6141,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 74, y: 1}
+  dieTime: 0.5
 --- !u!65 &484794099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6203,6 +6256,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 6, y: 1}
+  dieTime: 0.5
 --- !u!65 &486957672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6317,6 +6371,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 40, y: 1}
+  dieTime: 0.5
 --- !u!65 &496794960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6431,6 +6486,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 67, y: 0}
+  dieTime: 0.5
 --- !u!65 &510872977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6545,6 +6601,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 11, y: 1}
+  dieTime: 0.5
 --- !u!65 &513098187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6659,6 +6716,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 59, y: 0}
+  dieTime: 0.5
 --- !u!65 &563919377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6773,6 +6831,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 100, y: 1}
+  dieTime: 0.5
 --- !u!65 &577572238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6887,6 +6946,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 7, y: 1}
+  dieTime: 0.5
 --- !u!65 &597053220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7001,6 +7061,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 12, y: 1}
+  dieTime: 0.5
 --- !u!65 &615928829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7115,6 +7176,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 76, y: 1}
+  dieTime: 0.5
 --- !u!65 &632916056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7229,6 +7291,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 3, y: 0}
+  dieTime: 0.5
 --- !u!65 &633778500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7343,6 +7406,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 49, y: 1}
+  dieTime: 0.5
 --- !u!65 &645089515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7457,6 +7521,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 49, y: 0}
+  dieTime: 0.5
 --- !u!65 &666471180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7571,6 +7636,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 33, y: 0}
+  dieTime: 0.5
 --- !u!65 &666596043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7685,6 +7751,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 36, y: 0}
+  dieTime: 0.5
 --- !u!65 &671968019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7881,6 +7948,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 9, y: 1}
+  dieTime: 0.5
 --- !u!65 &694824102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8189,6 +8257,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 105, y: 0}
+  dieTime: 0.5
 --- !u!65 &726997371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8303,6 +8372,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 104, y: 0}
+  dieTime: 0.5
 --- !u!65 &728728813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8417,6 +8487,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 47, y: 1}
+  dieTime: 0.5
 --- !u!65 &730139221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8531,6 +8602,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 47, y: 0}
+  dieTime: 0.5
 --- !u!65 &748249602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8645,6 +8717,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 59, y: 1}
+  dieTime: 0.5
 --- !u!65 &765503661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8759,6 +8832,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 26, y: 1}
+  dieTime: 0.5
 --- !u!65 &769142618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8873,6 +8947,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 108, y: 0}
+  dieTime: 0.5
 --- !u!65 &787820631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8987,6 +9062,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 19, y: 1}
+  dieTime: 0.5
 --- !u!65 &795571322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9101,6 +9177,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 36, y: 1}
+  dieTime: 0.5
 --- !u!65 &834721353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9215,6 +9292,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 63, y: 1}
+  dieTime: 0.5
 --- !u!65 &862631199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9329,6 +9407,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 106, y: 0}
+  dieTime: 0.5
 --- !u!65 &868745516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9443,6 +9522,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 107, y: 0}
+  dieTime: 0.5
 --- !u!65 &889206599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9557,6 +9637,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 35, y: 1}
+  dieTime: 0.5
 --- !u!65 &895009741
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9671,6 +9752,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 35, y: 0}
+  dieTime: 0.5
 --- !u!65 &928795744
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9785,6 +9867,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 34, y: 0}
+  dieTime: 0.5
 --- !u!65 &929484835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9899,6 +9982,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 72, y: 0}
+  dieTime: 0.5
 --- !u!65 &935669020
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10013,6 +10097,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 42, y: 0}
+  dieTime: 0.5
 --- !u!65 &937028275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10127,6 +10212,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 46, y: 0}
+  dieTime: 0.5
 --- !u!65 &942803195
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10241,6 +10327,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 5, y: 1}
+  dieTime: 0.5
 --- !u!65 &943477131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10355,6 +10442,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 18, y: 1}
+  dieTime: 0.5
 --- !u!65 &962928319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10713,6 +10801,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 82, y: 0}
+  dieTime: 0.5
 --- !u!65 &966663833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10827,6 +10916,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 46, y: 1}
+  dieTime: 0.5
 --- !u!65 &970279068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10941,6 +11031,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 84, y: 1}
+  dieTime: 0.5
 --- !u!65 &970647092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11055,6 +11146,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 68, y: 1}
+  dieTime: 0.5
 --- !u!65 &992486518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11169,6 +11261,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 56, y: 1}
+  dieTime: 0.5
 --- !u!65 &999659050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11283,6 +11376,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 40, y: 0}
+  dieTime: 0.5
 --- !u!65 &1004082189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11397,6 +11491,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 28, y: 0}
+  dieTime: 0.5
 --- !u!65 &1022011847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11511,6 +11606,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 64, y: 1}
+  dieTime: 0.5
 --- !u!65 &1029326238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11625,6 +11721,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 91, y: 0}
+  dieTime: 0.5
 --- !u!65 &1036053784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11739,6 +11836,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 10, y: 1}
+  dieTime: 0.5
 --- !u!65 &1040888030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11853,6 +11951,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 98, y: 1}
+  dieTime: 0.5
 --- !u!65 &1058894583
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11967,6 +12066,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 63, y: 0}
+  dieTime: 0.5
 --- !u!65 &1063493090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12081,6 +12181,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 91, y: 1}
+  dieTime: 0.5
 --- !u!65 &1080788106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12195,6 +12296,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 88, y: 0}
+  dieTime: 0.5
 --- !u!65 &1088785843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12309,6 +12411,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 56, y: 0}
+  dieTime: 0.5
 --- !u!65 &1093068198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12423,6 +12526,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 55, y: 0}
+  dieTime: 0.5
 --- !u!65 &1099614971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12537,6 +12641,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 8, y: 1}
+  dieTime: 0.5
 --- !u!65 &1111029119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12651,6 +12756,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 45, y: 1}
+  dieTime: 0.5
 --- !u!65 &1150322984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12765,6 +12871,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 66, y: 0}
+  dieTime: 0.5
 --- !u!65 &1150912866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12879,6 +12986,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 69, y: 1}
+  dieTime: 0.5
 --- !u!65 &1157205750
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12993,6 +13101,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 8, y: 1}
+  dieTime: 0.5
 --- !u!65 &1179636185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13107,6 +13216,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 93, y: 1}
+  dieTime: 0.5
 --- !u!65 &1184672696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13221,6 +13331,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 70, y: 0}
+  dieTime: 0.5
 --- !u!65 &1198638942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13335,6 +13446,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 109, y: 1}
+  dieTime: 0.5
 --- !u!65 &1202988068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13449,6 +13561,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 75, y: 1}
+  dieTime: 0.5
 --- !u!65 &1252319224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13563,6 +13676,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 107, y: 1}
+  dieTime: 0.5
 --- !u!65 &1261598618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13677,6 +13791,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 65, y: 1}
+  dieTime: 0.5
 --- !u!65 &1269737933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13825,6 +13940,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 13, y: 1}
+  dieTime: 0.5
 --- !u!65 &1276068700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13939,6 +14055,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 108, y: 1}
+  dieTime: 0.5
 --- !u!65 &1276664614
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14053,6 +14170,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 71, y: 1}
+  dieTime: 0.5
 --- !u!65 &1278549772
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14167,6 +14285,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 84, y: 0}
+  dieTime: 0.5
 --- !u!65 &1291839187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14281,6 +14400,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 99, y: 1}
+  dieTime: 0.5
 --- !u!65 &1295844112
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14395,6 +14515,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 6, y: 1}
+  dieTime: 0.5
 --- !u!65 &1299106158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14509,6 +14630,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 53, y: 0}
+  dieTime: 0.5
 --- !u!65 &1301663165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14623,6 +14745,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 1, y: 1}
+  dieTime: 0.5
 --- !u!65 &1304286547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14737,6 +14860,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 61, y: 1}
+  dieTime: 0.5
 --- !u!65 &1322914830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14851,6 +14975,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 100, y: 0}
+  dieTime: 0.5
 --- !u!65 &1328818002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15088,6 +15213,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 51, y: 1}
+  dieTime: 0.5
 --- !u!65 &1351765987
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15202,6 +15328,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 32, y: 0}
+  dieTime: 0.5
 --- !u!65 &1360552327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15316,6 +15443,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 95, y: 1}
+  dieTime: 0.5
 --- !u!65 &1371127767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15430,6 +15558,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 77, y: 1}
+  dieTime: 0.5
 --- !u!65 &1371901210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15544,6 +15673,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 44, y: 1}
+  dieTime: 0.5
 --- !u!65 &1380772467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15658,6 +15788,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 50, y: 1}
+  dieTime: 0.5
 --- !u!65 &1392048552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15772,6 +15903,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 73, y: 0}
+  dieTime: 0.5
 --- !u!65 &1403047580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15886,6 +16018,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 111, y: 1}
+  dieTime: 0.5
 --- !u!65 &1404029166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16000,6 +16133,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 39, y: 0}
+  dieTime: 0.5
 --- !u!65 &1423210959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16114,6 +16248,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 94, y: 0}
+  dieTime: 0.5
 --- !u!65 &1425810727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16228,6 +16363,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 52, y: 0}
+  dieTime: 0.5
 --- !u!65 &1435316182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16342,6 +16478,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 31, y: 1}
+  dieTime: 0.5
 --- !u!65 &1436022769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16456,6 +16593,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 83, y: 0}
+  dieTime: 0.5
 --- !u!65 &1442290880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16570,6 +16708,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 81, y: 1}
+  dieTime: 0.5
 --- !u!65 &1452402247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16684,6 +16823,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 110, y: 0}
+  dieTime: 0.5
 --- !u!65 &1454500989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16798,6 +16938,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 92, y: 0}
+  dieTime: 0.5
 --- !u!65 &1457003731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16912,6 +17053,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 89, y: 1}
+  dieTime: 0.5
 --- !u!65 &1460045135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17026,6 +17168,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 9, y: 1}
+  dieTime: 0.5
 --- !u!65 &1462075192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17140,6 +17283,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 111, y: 0}
+  dieTime: 0.5
 --- !u!65 &1471511232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17254,6 +17398,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 31, y: 0}
+  dieTime: 0.5
 --- !u!65 &1478442445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17368,6 +17513,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 58, y: 1}
+  dieTime: 0.5
 --- !u!65 &1490593648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17482,6 +17628,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 20, y: 1}
+  dieTime: 0.5
 --- !u!65 &1509025708
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17596,6 +17743,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 24, y: 1}
+  dieTime: 0.5
 --- !u!65 &1522352205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17710,6 +17858,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 78, y: 1}
+  dieTime: 0.5
 --- !u!65 &1543065096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17824,6 +17973,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 39, y: 1}
+  dieTime: 0.5
 --- !u!65 &1546347908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17938,6 +18088,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 4, y: 0}
+  dieTime: 0.5
 --- !u!65 &1547162051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18052,6 +18203,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 70, y: 1}
+  dieTime: 0.5
 --- !u!65 &1552911612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18166,6 +18318,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 79, y: 0}
+  dieTime: 0.5
 --- !u!65 &1560742440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18280,6 +18433,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 5, y: 1}
+  dieTime: 0.5
 --- !u!65 &1566480951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18394,6 +18548,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 77, y: 0}
+  dieTime: 0.5
 --- !u!65 &1568152603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18508,6 +18663,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 25, y: 1}
+  dieTime: 0.5
 --- !u!65 &1569636457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18622,6 +18778,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 2, y: 1}
+  dieTime: 0.5
 --- !u!65 &1581751610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18736,6 +18893,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 1, y: 0}
+  dieTime: 0.5
 --- !u!65 &1586063662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18850,6 +19008,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 109, y: 0}
+  dieTime: 0.5
 --- !u!65 &1597973468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18964,6 +19123,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 7, y: 1}
+  dieTime: 0.5
 --- !u!65 &1609528996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19248,6 +19408,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 15, y: 1}
+  dieTime: 0.5
 --- !u!65 &1616353530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19362,6 +19523,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 48, y: 0}
+  dieTime: 0.5
 --- !u!65 &1618274027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19606,6 +19768,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 106, y: 1}
+  dieTime: 0.5
 --- !u!65 &1639807633
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19720,6 +19883,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 64, y: 0}
+  dieTime: 0.5
 --- !u!65 &1651953457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19834,6 +19998,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 44, y: 0}
+  dieTime: 0.5
 --- !u!65 &1659027465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19948,6 +20113,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 90, y: 1}
+  dieTime: 0.5
 --- !u!65 &1659331219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20062,6 +20228,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 74, y: 0}
+  dieTime: 0.5
 --- !u!65 &1679343788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20176,6 +20343,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 10, y: 1}
+  dieTime: 0.5
 --- !u!65 &1688711101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20290,6 +20458,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 101, y: 0}
+  dieTime: 0.5
 --- !u!65 &1694198703
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20404,6 +20573,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 97, y: 0}
+  dieTime: 0.5
 --- !u!65 &1698743052
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20518,6 +20688,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 62, y: 0}
+  dieTime: 0.5
 --- !u!65 &1700185401
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20632,6 +20803,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 101, y: 1}
+  dieTime: 0.5
 --- !u!65 &1711993035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20746,6 +20918,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 73, y: 1}
+  dieTime: 0.5
 --- !u!65 &1719277347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20860,6 +21033,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 3, y: 1}
+  dieTime: 0.5
 --- !u!65 &1722284724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20974,6 +21148,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 57, y: 1}
+  dieTime: 0.5
 --- !u!65 &1724025278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21088,6 +21263,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 2, y: 0}
+  dieTime: 0.5
 --- !u!65 &1730265371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21202,6 +21378,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 97, y: 1}
+  dieTime: 0.5
 --- !u!65 &1730653202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21316,6 +21493,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 86, y: 1}
+  dieTime: 0.5
 --- !u!65 &1733370445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21430,6 +21608,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 11, y: 1}
+  dieTime: 0.5
 --- !u!65 &1734844496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21544,6 +21723,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 0, y: 0}
+  dieTime: 0.5
 --- !u!65 &1743713753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21658,6 +21838,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 30, y: 0}
+  dieTime: 0.5
 --- !u!65 &1751541113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21772,6 +21953,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 1, y: 1}
+  dieTime: 0.5
 --- !u!65 &1758053216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21886,6 +22068,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 93, y: 0}
+  dieTime: 0.5
 --- !u!65 &1764321697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22000,6 +22183,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 104, y: 1}
+  dieTime: 0.5
 --- !u!65 &1771122346
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22114,6 +22298,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 103, y: 0}
+  dieTime: 0.5
 --- !u!65 &1788185018
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22228,6 +22413,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 95, y: 0}
+  dieTime: 0.5
 --- !u!65 &1812745684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22342,6 +22528,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 4, y: 1}
+  dieTime: 0.5
 --- !u!65 &1813146038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22561,6 +22748,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 4, y: 1}
+  dieTime: 0.5
 --- !u!65 &1830337707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22675,6 +22863,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 28, y: 1}
+  dieTime: 0.5
 --- !u!65 &1830991036
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22789,6 +22978,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 87, y: 0}
+  dieTime: 0.5
 --- !u!65 &1842968351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22903,6 +23093,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 87, y: 1}
+  dieTime: 0.5
 --- !u!65 &1846432569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23017,6 +23208,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 88, y: 1}
+  dieTime: 0.5
 --- !u!65 &1850490692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23131,6 +23323,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 60, y: 1}
+  dieTime: 0.5
 --- !u!65 &1863624590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23245,6 +23438,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 80, y: 0}
+  dieTime: 0.5
 --- !u!65 &1868040473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23359,6 +23553,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 34, y: 1}
+  dieTime: 0.5
 --- !u!65 &1881515248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23473,6 +23668,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 5, y: 0}
+  dieTime: 0.5
 --- !u!65 &1891476117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23587,6 +23783,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 42, y: 1}
+  dieTime: 0.5
 --- !u!65 &1893206733
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23701,6 +23898,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 9, y: 1}
+  dieTime: 0.5
 --- !u!65 &1895131347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23815,6 +24013,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 75, y: 0}
+  dieTime: 0.5
 --- !u!65 &1898495463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23929,6 +24128,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 6, y: 0}
+  dieTime: 0.5
 --- !u!65 &1905253669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24043,6 +24243,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 17, y: 1}
+  dieTime: 0.5
 --- !u!65 &1916010838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24655,6 +24856,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 43, y: 0}
+  dieTime: 0.5
 --- !u!65 &1923255984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24769,6 +24971,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 61, y: 0}
+  dieTime: 0.5
 --- !u!65 &1939130220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24883,6 +25086,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 43, y: 1}
+  dieTime: 0.5
 --- !u!65 &1943068271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24997,6 +25201,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 2, y: 1}
+  dieTime: 0.5
 --- !u!65 &1957855685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25111,6 +25316,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 7, y: 0}
+  dieTime: 0.5
 --- !u!65 &1959403663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25141,7 +25347,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d5c91da1f7e517247b45575c31e722ee, type: 2}
+  - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25225,6 +25431,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 0, y: 1}
+  dieTime: 0.5
 --- !u!65 &1974601686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25339,6 +25546,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 30, y: 1}
+  dieTime: 0.5
 --- !u!65 &1980721294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25453,6 +25661,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 12, y: 1}
+  dieTime: 0.5
 --- !u!65 &1981601219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25567,6 +25776,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 66, y: 1}
+  dieTime: 0.5
 --- !u!65 &1988642692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25681,6 +25891,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 96, y: 1}
+  dieTime: 0.5
 --- !u!65 &1995396949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25795,6 +26006,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 16, y: 1}
+  dieTime: 0.5
 --- !u!65 &1998379079
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25909,6 +26121,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 94, y: 1}
+  dieTime: 0.5
 --- !u!65 &2002963314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26023,6 +26236,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 54, y: 0}
+  dieTime: 0.5
 --- !u!65 &2026451960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26137,6 +26351,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 82, y: 1}
+  dieTime: 0.5
 --- !u!65 &2032276575
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26251,6 +26466,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 79, y: 1}
+  dieTime: 0.5
 --- !u!65 &2041186664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26365,6 +26581,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 85, y: 1}
+  dieTime: 0.5
 --- !u!65 &2047077882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26479,6 +26696,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 14, y: 1}
+  dieTime: 0.5
 --- !u!65 &2056844860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26593,6 +26811,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 60, y: 0}
+  dieTime: 0.5
 --- !u!65 &2058556662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26707,6 +26926,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 55, y: 1}
+  dieTime: 0.5
 --- !u!65 &2071786814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26821,6 +27041,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 41, y: 1}
+  dieTime: 0.5
 --- !u!65 &2071854375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27040,6 +27261,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 99, y: 0}
+  dieTime: 0.5
 --- !u!65 &2109040805
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27154,6 +27376,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 83, y: 1}
+  dieTime: 0.5
 --- !u!65 &2123821425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27360,6 +27583,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 23c3293a4a8e3604dafd548e6855c050, type: 2}
   - {fileID: 2100000, guid: 8957204fad7b2de4ba8ed3daf32ed2ac, type: 2}
   id: {x: 41, y: 0}
+  dieTime: 0.5
 --- !u!65 &2141139771
 BoxCollider:
   m_ObjectHideFlags: 0
