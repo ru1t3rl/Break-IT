@@ -88,11 +88,11 @@ public class Brick : MonoBehaviour
             if (hitX)
             {
                 ball.velocity.x *= -1;
-                ball.sparks.transform.rotation = Quaternion.Euler(0,0, 90);
+                ball.effects[ball.SelectedEffect].transform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else if (hitY)
                 ball.velocity.y *= -1;
-                ball.sparks.transform.rotation = Quaternion.Euler(0,0, 0);
+                ball.effects[ball.SelectedEffect].transform.rotation = Quaternion.Euler(0, 0, 90);
         }
     }
 }
