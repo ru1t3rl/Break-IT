@@ -86,9 +86,13 @@ public class Brick : MonoBehaviour
             bool hitY = ball.transform.position.y > this.transform.position.y + this.transform.localScale.y / 2 || ball.transform.position.y < this.transform.position.y - this.transform.localScale.y / 2;
 
             if (hitX)
+            {
                 ball.velocity.x *= -1;
+                ball.sparks.transform.rotation = Quaternion.Euler(0,0, 90);
+            }
             else if (hitY)
                 ball.velocity.y *= -1;
+                ball.sparks.transform.rotation = Quaternion.Euler(0,0, 0);
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.VFX;
 
 public class Ball : MonoBehaviour
 {
@@ -16,12 +17,16 @@ public class Ball : MonoBehaviour
     bool hitBottom = false;
     Material mat;
 
+    public VisualEffect sparks;
+
     private void Start()
     {
         AddForce();
 
         startPos = transform.position;
         mat = GetComponent<Renderer>().material;
+
+        sparks.transform.position = startPos;
     }
 
     void AddForce()
@@ -72,6 +77,11 @@ public class Ball : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        sparks.gameObject.transform.position = this.transform.position;
+        sparks.SetVector3(Shader.PropertyToID("BallVelocity"), velocity);
+        sparks.Stop();
+        sparks.Play();
+
         if (collision.collider.CompareTag("WallBottom"))
         {
             hitBottom = true;
