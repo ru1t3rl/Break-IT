@@ -18,7 +18,7 @@ public class Brick : MonoBehaviour
 
     private void Update()
     {
-        if (health  <= 0)
+        if (health <= 0)
             gameObject.SetActive(false);
     }
 
@@ -54,4 +54,19 @@ public class Brick : MonoBehaviour
     }
 
     public bool Toggled { get => toggled; }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Ball ball = collision.collider.GetComponent<Ball>();
+        if (ball != null)
+        {
+            bool hitX = ball.transform.position.x > this.transform.position.x + this.transform.localScale.x/2 || ball.transform.position.x < this.transform.position.x - this.transform.localScale.x/2;
+            bool hitY = ball.transform.position.y > this.transform.position.y + this.transform.localScale.y/2 || ball.transform.position.y < this.transform.position.y - this.transform.localScale.y/2;
+            
+            if(hitX)
+                ball.velocity.x *= -1;           
+            else if(hitY)
+                ball.velocity.y *= -1; 
+        }
+    }
 }

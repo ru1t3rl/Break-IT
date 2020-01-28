@@ -6,14 +6,31 @@ public class Ball : MonoBehaviour
 {
     public Vector3 velocity;
     [SerializeField] bool useRandomStartForce;
+    [SerializeField] Vector3[] startForceBounds = new Vector3[2];
     [SerializeField] Vector3 startForce;
     [SerializeField] float maxVelocity;
 
+    Vector3 startPos;
+
+    [SerializeField] float dissolveSpeed;
+    bool hitBottom = false;
+    Material mat;
+
     private void Start()
+    {
+        AddForce();
+
+        startPos = transform.position;
+        mat = GetComponent<Renderer>().material;
+    }
+
+    void AddForce()
     {
         if (useRandomStartForce)
         {
-            velocity += new Vector3(Random.Range(-1.0f, 1.0f), 0, Random.Range(-maxVelocity, -2));
+            velocity += new Vector3(Random.Range(startForceBounds[0].x, startForceBounds[1].x),
+            Random.Range(startForceBounds[0].y, startForceBounds[1].y),
+            Random.Range(startForceBounds[0].z, startForceBounds[1].z));
         }
         else
         {
@@ -21,10 +38,27 @@ public class Ball : MonoBehaviour
         }
     }
 
-    private void Update()
+    void Update()
     {
-        ReverseTruncate(ref velocity, maxVelocity);
-        transform.position += velocity * Time.deltaTime;
+        if (!hitBottom)
+        {
+            ReverseTruncate(ref velocity, maxVelocity);
+            transform.position += velocity * Time.deltaTime;
+        }
+        else
+        {
+            mat.SetFloat("_DissolveValue", mat.GetFloat("_DissolveValue") + dissolveSpeed);
+
+            if (mat.GetFloat("_DissolveValue") >= 1)
+            {
+                transform.position = startPos;
+
+                AddForce();
+
+                mat.SetFloat("_DissolveValue", 0);
+                hitBottom = false;
+            }
+        }
     }
 
     void ReverseTruncate(ref Vector3 velocity, float maxSpeed)
@@ -36,21 +70,19 @@ public class Ball : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        //if (collision.collider.CompareTag("Wall") && collision.collider.transform.position.x != 0)
-        //velocity.x *= -1;
-        if (collision.collider.CompareTag("Wall") && collision.collider.transform.rotation.eulerAngles.y != 90)
+        if (collision.collider.CompareTag("WallBottom"))
         {
-            velocity.x *= -1;
+            hitBottom = true;
         }
         else
-            velocity.y *= -1;
-
-        Brick brick = collision.collider.GetComponent<Brick>();
-        if (brick != null)
         {
-            brick.DoDamage(1);
+            Brick brick = collision.collider.GetComponent<Brick>();
+            if (brick != null)
+            {
+                brick.DoDamage(1);
+            }
         }
     }
 }
