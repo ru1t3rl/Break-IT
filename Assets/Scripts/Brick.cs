@@ -16,6 +16,8 @@ public class Brick : MonoBehaviour
 
     AudioSource explosion;
 
+    Ball ball;
+
     private void Start()
     {
         rend = GetComponent<Renderer>();
@@ -32,6 +34,9 @@ public class Brick : MonoBehaviour
             {
                 explosion.Stop();
                 explosion.Play();
+
+                if(ball != null)
+                    ball.shake.Shake();
 
                 GetComponent<Collider>().enabled = false;
                 startedDisolve = true;
@@ -86,7 +91,7 @@ public class Brick : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Ball ball = collision.collider.GetComponent<Ball>();
+        ball = collision.collider.GetComponent<Ball>();
         ball.AddScore(10);
         if (ball != null)
         {

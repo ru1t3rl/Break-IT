@@ -14,6 +14,7 @@ public class Ball : MonoBehaviour
     [SerializeField] float maxVelocity_bak;
     [SerializeField] float velocityIncrement = 0.2f;
 
+    public ScreenShake shake;
 
     Vector3 startPos;
 

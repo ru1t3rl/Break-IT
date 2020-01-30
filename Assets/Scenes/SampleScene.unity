@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 4
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -903,7 +903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 4
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -1664,7 +1664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &549069713
 Transform:
   m_ObjectHideFlags: 1
@@ -1788,7 +1788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 0
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -2432,7 +2432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &706746152
 Transform:
   m_ObjectHideFlags: 1
@@ -2556,7 +2556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 0
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -3408,7 +3408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 4
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -5159,7 +5159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -5459,7 +5459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246363214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.98, y: 2.04, z: 0}
+  m_LocalPosition: {x: -5.98, y: 2.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 977639788}
@@ -5516,8 +5516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToShake: {fileID: 1273688772}
-  shakeDuration: 0.75
-  maxShake: {x: 1, y: 1, z: 0}
+  shakeDuration: 0.5
+  maxShake: {x: 0.01, y: 0.01, z: 0}
 --- !u!1 &1275868150
 GameObject:
   m_ObjectHideFlags: 1
@@ -5538,7 +5538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1275868151
 Transform:
   m_ObjectHideFlags: 1
@@ -5662,7 +5662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 0
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -5998,7 +5998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -6526,7 +6526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 3
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -6615,7 +6615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1460932435
 Transform:
   m_ObjectHideFlags: 1
@@ -6739,7 +6739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 0
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -7041,7 +7041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1595673643
 Transform:
   m_ObjectHideFlags: 1
@@ -7165,7 +7165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 0
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}
@@ -7536,6 +7536,7 @@ MonoBehaviour:
   maxVelocity: 8
   maxVelocity_bak: 0
   velocityIncrement: 0.005
+  shake: {fileID: 1273688774}
   dissolveSpeed: 0.03
   sparkEffect: {fileID: 5313089425527534521, guid: 304426408cf3a884c99607fd2d86f480,
     type: 3}
@@ -8109,7 +8110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb80f54261e4f6042be625bb40694584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 3
   materials:
   - {fileID: 2100000, guid: 5ac6b6edfa30b9a40b091015a6380feb, type: 2}
   - {fileID: 2100000, guid: de61cde6c9ff5cb478df5fefdfc05e17, type: 2}

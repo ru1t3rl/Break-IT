@@ -10,6 +10,7 @@ public class ScreenShake : MonoBehaviour
     Vector3 startPos;
     float dieTime = 0.0f;
     Coroutine shake;
+    bool shakie;
 
     private void Start()
     {
@@ -20,16 +21,22 @@ public class ScreenShake : MonoBehaviour
     {
         transform.position = startPos;
         dieTime = Time.time + shakeDuration;
+        shakie = true;
     }
 
-    IEnumerator ShakeObject()
+    void Update()
     {
-        do
+        if (shakie)
         {
-            objectToShake.transform.position += new Vector3(Random.Range(-maxShake.x, maxShake.x), Random.Range(-maxShake.y, maxShake.y), Random.Range(-maxShake.z, maxShake.z));
-        } while (Time.time < dieTime);
-        transform.position = startPos;
-
-        yield return null;
+            if (Time.time < dieTime)
+            {
+                objectToShake.transform.position += new Vector3(Random.Range(-maxShake.x, maxShake.x), Random.Range(-maxShake.y, maxShake.y), Random.Range(-maxShake.z, maxShake.z));
+            }
+            else
+            {
+                transform.position = startPos;
+                shakie = false;
+            }
+        }
     }
 }
