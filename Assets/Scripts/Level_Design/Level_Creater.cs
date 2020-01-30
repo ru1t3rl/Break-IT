@@ -12,8 +12,12 @@ public class Level_Creater : MonoBehaviour
                    prevMargin = Vector2.zero;
     Coroutine updateBricks;
     bool visible = true;
+    bool inGame = false;
 
     public bool initilaized = false;
+    public bool addedBrick = false;
+
+    public int activeBricks = 0;
 
     public void UpdateBricksList()
     {
@@ -26,9 +30,9 @@ public class Level_Creater : MonoBehaviour
         List<GameObject> newList = new List<GameObject>();
 
         // Delete all the objects
-        foreach(GameObject gobj in bricksList)
+        foreach (GameObject gobj in bricksList)
         {
-            newList.Add(Instantiate(brick, gobj.transform.position, gobj.transform.rotation, this.transform));
+            newList.Add(Instantiate(brick, this.transform.position, this.transform.rotation, this.transform));
             newList[newList.Count - 1].SetActive(gobj.activeSelf);
             Brick b = newList[newList.Count - 1].GetComponent<Brick>();
             b.health = gobj.GetComponent<Brick>().health;
@@ -62,6 +66,7 @@ public class Level_Creater : MonoBehaviour
 
             for (int i = toRemove.Count; i-- > 0;)
             {
+                DestroyImmediate(toRemove[i]);
                 bricksList.Remove(toRemove[i]);
             }
         }
@@ -74,14 +79,15 @@ public class Level_Creater : MonoBehaviour
                 index = iRow * size.x + iCol;
                 Brick bricky;
 
+                // Updating and Instantiating the bricks
                 try
                 {
                     try
                     {
                         bricky = bricksList[index].GetComponent<Brick>();
 
-                        bricksList[index].transform.position = new Vector3(iCol * brick.transform.localScale.x + brick.transform.localScale.x,
-                                                                                iRow * brick.transform.localScale.y + brick.transform.localScale.y, 0);
+                        bricksList[index].transform.position = new Vector3(this.transform.position.x + (iCol * brick.transform.localScale.x + brick.transform.localScale.x),
+                                                                            this.transform.position.y + (iRow * brick.transform.localScale.y + brick.transform.localScale.y), 0);
 
                         if (!bricky.Toggled)
                             bricky.gameObject.SetActive(true);
@@ -101,6 +107,8 @@ public class Level_Creater : MonoBehaviour
 
                 gobj = bricksList[index];
                 GameObject prevGobj;
+
+                // Setting the position for the blocks which are not in left collumns
                 if (iCol != 0)
                 {
                     prevGobj = bricksList[index - 1];
@@ -109,6 +117,7 @@ public class Level_Creater : MonoBehaviour
                                                                gobj.transform.position.z);
                 }
 
+                // Setting the position for the blocks which are not in the right collumns
                 if (iRow != 0)
                 {
                     prevGobj = bricksList[index - size.x];
@@ -125,9 +134,28 @@ public class Level_Creater : MonoBehaviour
         yield return null;
     }
 
+    void Start()
+    {
+        inGame = true;
+    }
+
+    void Update()
+    {
+        if (inGame)
+        {
+            if (activeBricks <= 0 && addedBrick)
+            {
+                GameManager.allDead = true;
+                Debug.Log("Ya Yeet");
+            }
+        }
+    }
+
     void InstatiateBrick(int iRow, int iCol)
     {
-        bricksList.Add(Instantiate(brick, new Vector3(iCol * brick.transform.localScale.x + brick.transform.localScale.x, iRow * brick.transform.localScale.y + brick.transform.localScale.y, 0), brick.transform.rotation, transform));
+        bricksList.Add(Instantiate(brick, new Vector3(this.transform.position.x + (iCol * brick.transform.localScale.x + brick.transform.localScale.x),
+                                                        this.transform.position.y + (iRow * brick.transform.localScale.y + brick.transform.localScale.y), 0),
+                                                        this.transform.rotation, transform));
 
         GameObject gobj = bricksList[(int)(bricksList.Count - 1)];
         gobj.hideFlags = HideFlags.HideInHierarchy;
