@@ -15,6 +15,9 @@ public class Level_Creater : MonoBehaviour
     bool inGame = false;
 
     public bool initilaized = false;
+    public bool addedBrick = false;
+
+    public int activeBricks = 0;
 
     public void UpdateBricksList()
     {
@@ -138,7 +141,14 @@ public class Level_Creater : MonoBehaviour
 
     void Update()
     {
-
+        if (inGame)
+        {
+            if (activeBricks <= 0 && addedBrick)
+            {
+                GameManager.allDead = true;
+                Debug.Log("Ya Yeet");
+            }
+        }
     }
 
     void InstatiateBrick(int iRow, int iCol)

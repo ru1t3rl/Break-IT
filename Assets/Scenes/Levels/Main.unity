@@ -802,7 +802,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 7.58e-43, y: 5.4082564e+13, z: 7.58e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2068,8 +2068,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1273688773}
-  - component: {fileID: 1273688774}
   - component: {fileID: 1273688775}
+  - component: {fileID: 1273688774}
   m_Layer: 0
   m_Name: PlayingField
   m_TagString: Untagged
@@ -2107,9 +2107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991aaaa1909fa474e8cb83577df55ead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToShake: {fileID: 0}
-  shakeDuration: 0.75
-  maxShake: {x: 1, y: 1, z: 0}
+  objectToShake: {fileID: 963194225}
+  shakeDuration: 0.5
+  maxShake: {x: 0.009, y: 0.009, z: 0}
 --- !u!114 &1273688775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2123,6 +2123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levels:
+  - {fileID: 102900000, guid: 002c90dec89329343bf495e3e8f324c8, type: 3}
   - {fileID: 102900000, guid: 5c29bd83bdee4284b9014f9d8792ce59, type: 3}
   victory: {fileID: 102900000, guid: 2c9bf13adf1fcfe4ab8386af1a451ffe, type: 3}
 --- !u!1 &1342453509
@@ -2652,6 +2653,7 @@ MonoBehaviour:
   maxVelocity: 8
   maxVelocity_bak: 0
   velocityIncrement: 0.005
+  shake: {fileID: 1273688774}
   dissolveSpeed: 0.03
   sparkEffect: {fileID: 5313089425527534521, guid: 304426408cf3a884c99607fd2d86f480,
     type: 3}

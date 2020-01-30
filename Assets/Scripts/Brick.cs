@@ -28,6 +28,12 @@ public class Brick : MonoBehaviour
         {
             GetComponent<Collider>().isTrigger = false;
         }
+
+        if (gameObject.activeSelf)
+        {
+            transform.parent.GetComponent<Level_Creater>().activeBricks += 1;
+            transform.parent.GetComponent<Level_Creater>().addedBrick = true;
+        }
     }
 
     private void Update()
@@ -39,7 +45,7 @@ public class Brick : MonoBehaviour
                 explosion.Stop();
                 explosion.Play();
 
-                if(ball != null)
+                if (ball != null)
                     ball.shake.Shake();
 
                 GetComponent<Collider>().enabled = false;
@@ -53,8 +59,11 @@ public class Brick : MonoBehaviour
             }
             else if (Time.time >= time2Die)
             {
+                transform.parent.GetComponent<Level_Creater>().activeBricks -= 1;
+
                 GetComponent<Collider>().enabled = true;
                 startedDisolve = false;
+
                 gameObject.SetActive(false);
             }
         }
