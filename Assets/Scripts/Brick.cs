@@ -14,10 +14,14 @@ public class Brick : MonoBehaviour
     [SerializeField] float dieTime = 0.5f;
     float time2Die;
 
+    AudioSource explosion;
+
     private void Start()
     {
         rend = GetComponent<Renderer>();
         rend.material = materials[health - 1];
+
+        explosion = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -26,6 +30,9 @@ public class Brick : MonoBehaviour
         {
             if (!startedDisolve)
             {
+                explosion.Stop();
+                explosion.Play();
+
                 GetComponent<Collider>().enabled = false;
                 startedDisolve = true;
                 time2Die = Time.time + dieTime;
@@ -80,6 +87,7 @@ public class Brick : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Ball ball = collision.collider.GetComponent<Ball>();
+        ball.AddScore(10);
         if (ball != null)
         {
             bool hitX = ball.transform.position.x > this.transform.position.x + this.transform.localScale.x / 2 || ball.transform.position.x < this.transform.position.x - this.transform.localScale.x / 2;

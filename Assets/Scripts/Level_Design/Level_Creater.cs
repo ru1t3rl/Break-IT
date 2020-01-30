@@ -62,6 +62,7 @@ public class Level_Creater : MonoBehaviour
 
             for (int i = toRemove.Count; i-- > 0;)
             {
+                DestroyImmediate(toRemove[i]);
                 bricksList.Remove(toRemove[i]);
             }
         }

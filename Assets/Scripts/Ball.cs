@@ -33,6 +33,14 @@ public class Ball : MonoBehaviour
     [SerializeField] TextMeshProUGUI text;
     public bool frozen = true;
 
+    AudioSource bounce;
+
+    // Stats
+    [SerializeField] TextMeshPro scoreText;
+    int score = 0;
+    [SerializeField] List<GameObject> liveObjects;
+    int lives = 0;
+
     private void Start()
     {
         AddForce();
@@ -49,6 +57,11 @@ public class Ball : MonoBehaviour
         }
 
         StartCoroutine(CountDown());
+
+        bounce = GetComponent<AudioSource>();
+
+        lives = liveObjects.Count;
+        scoreText.text = score.ToString();
     }
 
     IEnumerator CountDown()
@@ -90,7 +103,10 @@ public class Ball : MonoBehaviour
             }
             else
             {
-                mat.SetFloat("_DissolveValue", mat.GetFloat("_DissolveValue") + dissolveSpeed);
+                Dissolve(mat);
+
+                if(lives - 1 >= 0)
+                    Dissolve(liveObjects[lives - 1].GetComponent<Renderer>().material);
 
                 if (mat.GetFloat("_DissolveValue") >= 1)
                 {
@@ -101,9 +117,21 @@ public class Ball : MonoBehaviour
                     mat.SetFloat("_DissolveValue", 0);
                     hitBottom = false;
                     maxVelocity = maxVelocity_bak;
+
+                    TakeALive();
+
+                    foreach(GameObject effect in effects)
+                    {
+                        effect.transform.rotation = Quaternion.identity;
+                    }
                 }
             }
         }
+    }
+
+    void Dissolve(Material mat)
+    {
+        mat.SetFloat("_DissolveValue", mat.GetFloat("_DissolveValue") + dissolveSpeed);
     }
 
     void ReverseTruncate(ref Vector3 velocity, float maxSpeed)
@@ -113,6 +141,19 @@ public class Ball : MonoBehaviour
             velocity.Normalize();
             velocity *= maxSpeed;
         }
+    }
+
+    public void AddScore(int amount)
+    {
+        score += amount;
+        scoreText.text = score.ToString();
+    }
+
+    public void TakeALive()
+    {
+        lives--;
+        if (lives >= 0)
+            liveObjects[lives].SetActive(false);        
     }
 
     void OnCollisionEnter(Collision collision)
@@ -140,6 +181,9 @@ public class Ball : MonoBehaviour
                 brick.DoDamage(1);
             }
         }
+
+        bounce.Stop();
+        bounce.Play();
     }
 
     public int SelectedEffect { get => selectedEffect; }
