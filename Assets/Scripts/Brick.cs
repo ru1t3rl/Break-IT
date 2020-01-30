@@ -22,6 +22,10 @@ public class Brick : MonoBehaviour
         rend.material = materials[health - 1];
 
         explosion = GetComponent<AudioSource>();
+        if (GetComponent<Collider>().isTrigger)
+        {
+            GetComponent<Collider>().isTrigger = false;
+        }
     }
 
     private void Update()
@@ -100,7 +104,7 @@ public class Brick : MonoBehaviour
             }
             else if (hitY)
                 ball.velocity.y *= -1;
-                ball.effects[ball.SelectedEffect].transform.rotation = Quaternion.Euler(0, 0, 90);
+            ball.effects[ball.SelectedEffect].transform.rotation = Quaternion.Euler(0, 0, 90);
         }
     }
 }

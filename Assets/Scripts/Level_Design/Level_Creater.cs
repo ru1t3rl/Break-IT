@@ -12,6 +12,7 @@ public class Level_Creater : MonoBehaviour
                    prevMargin = Vector2.zero;
     Coroutine updateBricks;
     bool visible = true;
+    bool inGame = false;
 
     public bool initilaized = false;
 
@@ -26,7 +27,7 @@ public class Level_Creater : MonoBehaviour
         List<GameObject> newList = new List<GameObject>();
 
         // Delete all the objects
-        foreach(GameObject gobj in bricksList)
+        foreach (GameObject gobj in bricksList)
         {
             newList.Add(Instantiate(brick, this.transform.position, this.transform.rotation, this.transform));
             newList[newList.Count - 1].SetActive(gobj.activeSelf);
@@ -130,10 +131,20 @@ public class Level_Creater : MonoBehaviour
         yield return null;
     }
 
+    void Start()
+    {
+        inGame = true;
+    }
+
+    void Update()
+    {
+
+    }
+
     void InstatiateBrick(int iRow, int iCol)
     {
-        bricksList.Add(Instantiate(brick, new Vector3(this.transform.position.x + (iCol * brick.transform.localScale.x + brick.transform.localScale.x), 
-                                                        this.transform.position.y + (iRow * brick.transform.localScale.y + brick.transform.localScale.y), 0), 
+        bricksList.Add(Instantiate(brick, new Vector3(this.transform.position.x + (iCol * brick.transform.localScale.x + brick.transform.localScale.x),
+                                                        this.transform.position.y + (iRow * brick.transform.localScale.y + brick.transform.localScale.y), 0),
                                                         this.transform.rotation, transform));
 
         GameObject gobj = bricksList[(int)(bricksList.Count - 1)];
