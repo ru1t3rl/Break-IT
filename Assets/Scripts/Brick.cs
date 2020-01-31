@@ -31,8 +31,7 @@ public class Brick : MonoBehaviour
 
         if (gameObject.activeSelf)
         {
-            transform.parent.GetComponent<Level_Creater>().activeBricks += 1;
-            transform.parent.GetComponent<Level_Creater>().addedBrick = true;
+            transform.parent.GetComponent<Level_Creater>().AddBrick();
         }
     }
 

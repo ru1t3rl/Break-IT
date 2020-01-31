@@ -14,32 +14,40 @@ public class GameManager : MonoBehaviour
     int currentLevel = 0;
     bool activated = false;
 
-    void Start(){
+    void Start()
+    {
         currentLevel = 0;
         LoadLevel();
     }
 
-    void Update(){
-        if(allDead){
+    void Update()
+    {
+        if (allDead)
+        {
             NextLevel();
             allDead = false;
         }
     }
 
-    void NextLevel(){
+    void NextLevel()
+    {
         currentLevel++;
         LoadLevel();
     }
 
-    void LoadLevel(){
-        if(currentLevel != 0)
+    void LoadLevel()
+    {
+        if (currentLevel != 0)
             SceneManager.UnloadSceneAsync(levels[currentLevel - 1].name);
-        
-        if(currentLevel < levels.Count){
+
+        if (currentLevel < levels.Count)
+        {
             SceneManager.LoadSceneAsync(levels[currentLevel].name, LoadSceneMode.Additive);
         }
-        else   
+        else
             SceneManager.LoadSceneAsync(victory.name, LoadSceneMode.Single);
+
+        allDead = false;
     }
 }
 
