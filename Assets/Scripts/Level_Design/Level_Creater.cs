@@ -136,7 +136,7 @@ public class Level_Creater : MonoBehaviour
 
     void Start()
     {
-        inGame = true;
+        addedBrick = false;
     }
 
     void Update()
@@ -146,9 +146,16 @@ public class Level_Creater : MonoBehaviour
             if (activeBricks <= 0 && addedBrick)
             {
                 GameManager.allDead = true;
-                Debug.Log("Ya Yeet");
+                addedBrick = false;
+                inGame = false;
             }
         }
+    }
+
+    public void AddBrick(){
+        activeBricks++;
+        addedBrick = true;
+        inGame = true;
     }
 
     void InstatiateBrick(int iRow, int iCol)
