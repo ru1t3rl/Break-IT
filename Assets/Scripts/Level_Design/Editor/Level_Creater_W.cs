@@ -94,16 +94,23 @@ public class Level_Creater_W : Editor
                 {
                     try
                     {
-                        Brick b = creator.bricksList[iRow * creator.size.x + iCol].GetComponent<Brick>();
-                        b.health = EditorGUILayout.IntField(b.health);
-                        b.ToggleVisble(b.health > 0);
+                        try
+                        {
+                            Brick b = creator.bricksList[iRow * creator.size.x + iCol].GetComponent<Brick>();
+                            b.health = EditorGUILayout.IntField(b.health);
+                            b.ToggleVisble(b.health > 0);
+                        }
+                        catch (MissingReferenceException)
+                        {
+                            creator.UpdateThemBricksList();
+                        }
                     }
-                    catch (MissingReferenceException)
+                    catch (KeyNotFoundException)
                     {
                         creator.UpdateThemBricksList();
                     }
                 }
-                catch (KeyNotFoundException)
+                catch (System.ArgumentOutOfRangeException)
                 {
                     creator.UpdateThemBricksList();
                 }
